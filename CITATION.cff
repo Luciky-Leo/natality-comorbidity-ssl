@@ -16,6 +16,7 @@ authors:
     given-names: Feifan
     email: luff94@163.com
 repository-code: "https://github.com/Luciky-Leo/natality-comorbidity-ssl"
+doi: "10.5281/zenodo.20482195"
 license: MIT
 date-released: "2026-06-01"
 keywords:

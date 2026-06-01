@@ -44,4 +44,6 @@ Code and reusable materials in this repository are released under the MIT Licens
 
 ## Citation
 
-Please cite the manuscript and the archived Zenodo release when available. The Zenodo DOI should be generated from a GitHub release after the final repository version is pushed.
+Please cite the manuscript and the archived Zenodo release:
+
+https://doi.org/10.5281/zenodo.20482195
