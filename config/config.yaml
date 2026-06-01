@@ -1,0 +1,31 @@
+project:
+  name: natality_comorbidity_ssl
+  created: "2026-05-25"
+  primary_claim: "self-supervised maternal comorbidity phenotyping for calibrated risk enrichment"
+
+data_sources:
+  vital_statistics_portal: "https://www.cdc.gov/nchs/data_access/Vitalstatsonline.htm"
+  wonder_natality_expanded_doc: "https://wonder.cdc.gov/wonder/help/natality-expanded.html"
+  user_guide_2024: "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/UserGuide2024.pdf"
+
+years:
+  smoke_test: [2024]
+  train: [2016, 2017, 2018, 2019, 2020, 2021, 2022]
+  dev: [2023]
+  test: [2024]
+
+modelling:
+  primary_target: "adverse_neonatal_composite"
+  secondary_target: "maternal_morbidity_composite"
+  primary_metric: "AUPRC"
+  secondary_metrics: ["AUROC", "Brier", "ECE", "calibration_slope", "calibration_intercept"]
+  random_seed: 20260525
+
+leakage_policy:
+  primary_model: "antepartum_or_pre_delivery_variables_only"
+  delivery_context_model: "secondary_only"
+
+output:
+  tables_dir: "results/tables"
+  figures_dir: "results/figures"
+  manuscript_dir: "manuscript"

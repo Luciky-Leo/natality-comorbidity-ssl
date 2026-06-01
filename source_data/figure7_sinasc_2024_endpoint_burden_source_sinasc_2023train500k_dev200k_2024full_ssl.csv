@@ -1,0 +1,9 @@
+year,outcome,known_n,positive_n,positive_pct_known,label
+2024,outcome_preterm_lt37,2371495,294125,12.402514025962526,Preterm <37 wk
+2024,outcome_very_preterm_lt32,2371495,40191,1.6947537312960812,Very preterm <32 wk
+2024,outcome_low_birthweight_lt2500g,2388972,226243,9.470307730689182,Low birthweight <2500 g
+2024,outcome_very_low_birthweight_lt1500g,2388972,35204,1.473604546223229,Very low birthweight <1500 g
+2024,outcome_low_apgar5_lt7,2364243,24305,1.0280246150670638,5-min Apgar <7
+2024,outcome_congenital_anomaly,2355085,27588,1.171422687503848,Congenital anomaly
+2024,outcome_sinasc_severe_birth_status,2389311,90268,3.777992902556428,Severe birth-status
+2024,outcome_sinasc_broad_birth_status,2389311,409090,17.121672314738433,Broad birth-status

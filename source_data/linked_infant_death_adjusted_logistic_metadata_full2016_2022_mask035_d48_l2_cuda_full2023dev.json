@@ -1,0 +1,11 @@
+{
+  "cohort": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\data\\processed\\linked_infant_death_2023_cohort.parquet",
+  "assignments": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\linked_infant_death_phenotype_assignments_full2016_2022_mask035_d48_l2_cuda_full2023dev.parquet",
+  "linked_zip": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\data\\raw_linked_birth_infant_death\\2024PE2023CO.zip",
+  "rows": 3596017,
+  "models": [
+    "maternal_registry_adjusted",
+    "birth_status_adjusted_descriptive"
+  ],
+  "birth_status_note": "Birthweight and gestational age are descriptive attenuation variables, not pre-delivery predictors."
+}

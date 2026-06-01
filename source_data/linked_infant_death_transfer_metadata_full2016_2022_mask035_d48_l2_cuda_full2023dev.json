@@ -1,0 +1,8 @@
+{
+  "embeddings": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\linked_infant_death_2023_ssl_embeddings_full2016_2022_mask035_d48_l2_cuda.parquet",
+  "phenotype_model": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\ssl_phenotype_model_full2016_2022_mask035_d48_l2_cuda_full2023dev_full2024.npz",
+  "rows": 3596017,
+  "embedding_columns": 48,
+  "predefined_high_risk_phenotype": 0,
+  "bootstrap_iterations": 500
+}

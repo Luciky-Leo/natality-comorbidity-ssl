@@ -1,0 +1,14 @@
+{
+  "checkpoint": "results\\objects\\masked_tabular_ssl_encoder_full2016_2022_mask035_d48_l2_cuda.pt",
+  "preprocessor": "results\\objects\\masked_tabular_ssl_preprocessor_full2016_2022_mask035_d48_l2_cuda.json",
+  "train_embeddings": null,
+  "dev_embeddings": null,
+  "test_embeddings": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\masked_tabular_ssl_test_embeddings_full2016_2022_mask035_d48_l2_cuda_full2024.parquet",
+  "train_rows": 0,
+  "dev_rows": 0,
+  "test_rows": 3638436,
+  "max_train_per_year": 500000,
+  "batch_size": 4096,
+  "seed": 20260525,
+  "device": "cpu"
+}

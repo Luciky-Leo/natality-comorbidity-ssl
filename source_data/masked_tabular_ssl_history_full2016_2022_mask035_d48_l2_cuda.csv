@@ -1,0 +1,2 @@
+epoch,train_rows_seen_preprocessor,train_loss,train_cat_loss,train_num_loss,train_rows,train_chunks,dev_loss,dev_cat_loss,dev_num_loss
+1,26345765,0.26641672146993584,0.3712379020093697,0.1985912320498468,26345765,267,0.18586341290473937,0.30131435318856276,0.11115984965806992

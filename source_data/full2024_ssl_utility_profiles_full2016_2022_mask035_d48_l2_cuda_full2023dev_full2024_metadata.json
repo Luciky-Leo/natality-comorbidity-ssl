@@ -1,0 +1,11 @@
+{
+  "predictions": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\ssl_plus_phenotype_predictions_full2016_2022_mask035_d48_l2_cuda_full2023dev_full2024.parquet",
+  "cohort": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\data\\processed\\nat2024_analytic_cohort.parquet",
+  "rows": 3638436,
+  "topk_rows": 8,
+  "decision_curve_rows": 16,
+  "subgroup_rows": 58,
+  "profile_rows": 36,
+  "birth_profile_rows": 3,
+  "model": "SSL + phenotype"
+}

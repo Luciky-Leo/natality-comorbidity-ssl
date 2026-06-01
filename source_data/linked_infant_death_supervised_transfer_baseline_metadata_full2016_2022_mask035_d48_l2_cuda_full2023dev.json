@@ -1,0 +1,22 @@
+{
+  "training_endpoint": "outcome_severe_neonatal_no_nicu",
+  "linked_outcomes": [
+    "outcome_infant_death",
+    "outcome_neonatal_death_lt28d",
+    "outcome_early_neonatal_death_lt7d",
+    "outcome_postneonatal_death_28d_1y"
+  ],
+  "train_embeddings": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\masked_tabular_ssl_train_embeddings_full2016_2022_mask035_d48_l2_cuda_train500k.parquet",
+  "development_embeddings": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\masked_tabular_ssl_dev_embeddings_full2016_2022_mask035_d48_l2_cuda_full2023dev.parquet",
+  "linked_cohort": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\data\\processed\\linked_infant_death_2023_cohort.parquet",
+  "phenotype_assignments": "E:\\Reserch\\AI\\Natality_Comorbidity_SSL_20260525\\results\\objects\\linked_infant_death_phenotype_assignments_full2016_2022_mask035_d48_l2_cuda_full2023dev.parquet",
+  "input_columns": 112,
+  "train_rows": 3500000,
+  "development_rows": 3605081,
+  "linked_rows": 3596017,
+  "phenotype_high_risk": 0,
+  "phenotype_high_risk_fraction": 0.045787047169131845,
+  "lgbm_estimators": 300,
+  "seed": 20260525,
+  "interpretation": "The supervised score was trained for severe neonatal outcome, recalibrated in 2023, and transferred without infant-death labels to linked infant-death outcomes."
+}

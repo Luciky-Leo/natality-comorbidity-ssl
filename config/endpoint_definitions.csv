@@ -1,0 +1,6 @@
+endpoint,role,components,primary_endpoint,notes
+outcome_maternal_morbidity_core,maternal_primary,"maternal_transfusion;ruptured_uterus;unplanned_hysterectomy;maternal_icu",yes,"Primary maternal endpoint; excludes perineal laceration because it is strongly delivery-mode/context dependent."
+outcome_maternal_morbidity_extended,maternal_sensitivity,"maternal_transfusion;ruptured_uterus;unplanned_hysterectomy;maternal_icu;perineal_laceration",no,"Sensitivity endpoint matching a broader birth-certificate maternal morbidity composite."
+outcome_severe_neonatal_no_nicu,neonatal_primary,"very_low_birthweight_lt1500g;low_apgar5_lt7;ventilation_gt6h;newborn_seizures",yes,"Primary severe neonatal endpoint; excludes NICU because admission practice may vary by facility and policy."
+outcome_severe_neonatal_plus_nicu,neonatal_sensitivity,"very_low_birthweight_lt1500g;low_apgar5_lt7;ventilation_gt6h;newborn_seizures;nicu_admission",no,"Sensitivity endpoint that adds NICU admission."
+outcome_broad_neonatal_composite,neonatal_secondary,"preterm_lt37;low_birthweight_lt2500g;low_apgar5_lt7;ventilation_gt6h;nicu_admission;newborn_seizures",no,"Feasibility/secondary endpoint; broad and not ideal as the main clinical claim."

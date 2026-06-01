@@ -1,0 +1,13 @@
+{
+  "train_embeddings": "results\\objects\\masked_tabular_ssl_train_embeddings_full2016_2022_mask035_d48_l2_cuda_train500k.parquet",
+  "dev_embeddings": "results\\objects\\masked_tabular_ssl_dev_embeddings_full2016_2022_mask035_d48_l2_cuda_full2023dev.parquet",
+  "test_embeddings": "results\\objects\\masked_tabular_ssl_test_embeddings_full2016_2022_mask035_d48_l2_cuda_full2024.parquet",
+  "embedding_columns": 48,
+  "input_columns": 112,
+  "train_rows": 3500000,
+  "dev_rows": 3605081,
+  "test_rows": 3638436,
+  "lgbm_estimators": 300,
+  "bootstrap_iterations": 200,
+  "seed": 20260525
+}

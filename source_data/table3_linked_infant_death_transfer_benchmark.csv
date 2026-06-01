@@ -1,0 +1,5 @@
+selection_rule,selected_births,selected_fraction_percent,infant_death_rate_percent,enrichment_over_prevalence,infant_deaths_captured_percent
+SSL phenotype 0,164651,4.58,2.021,3.68,16.85
+All-input LightGBM top 1%,35960,1.00,22.511,41.00,41.00
+All-input LightGBM top 4.58%,164651,4.58,5.886,10.72,49.09
+All-input LightGBM top 5%,179801,5.00,5.466,9.96,49.78

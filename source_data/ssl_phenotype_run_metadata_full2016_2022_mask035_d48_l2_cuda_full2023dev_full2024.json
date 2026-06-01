@@ -1,0 +1,29 @@
+{
+  "dev_embeddings": "results\\objects\\masked_tabular_ssl_dev_embeddings_full2016_2022_mask035_d48_l2_cuda_full2023dev.parquet",
+  "test_embeddings": "results\\objects\\masked_tabular_ssl_test_embeddings_full2016_2022_mask035_d48_l2_cuda_full2024.parquet",
+  "output_tag": "full2016_2022_mask035_d48_l2_cuda_full2023dev_full2024",
+  "best_k": 3,
+  "embedding_columns": 48,
+  "dev_rows": 3605081,
+  "test_rows": 3638436,
+  "pca_components": 16,
+  "pca_explained_variance_total": 0.9721586108207703,
+  "bootstrap_iterations": 200,
+  "stability_iterations": 10,
+  "stability_fraction": 0.8,
+  "stability_max_rows": 500000,
+  "kmeans_n_init": 5,
+  "phenotype_relabeling": {
+    "rule": "development severe neonatal outcome rate descending; P0 is highest-risk phenotype",
+    "old_to_new": {
+      "2": 0,
+      "0": 1,
+      "1": 2
+    },
+    "ordered_old_labels": [
+      2,
+      0,
+      1
+    ]
+  }
+}

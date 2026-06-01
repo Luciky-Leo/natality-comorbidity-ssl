@@ -1,0 +1,4 @@
+feature_set,maternal_auroc,maternal_auprc,maternal_top1_enrichment,severe_neonatal_auroc,severe_neonatal_auprc,severe_neonatal_top1_enrichment
+All inputs,0.6905,0.0234,7.04,0.7613,0.3009,15.20
+SSL embeddings,0.6584,0.0170,4.77,0.7145,0.2184,11.58
+All inputs + SSL,0.6901,0.0230,6.99,0.7612,0.3008,15.16

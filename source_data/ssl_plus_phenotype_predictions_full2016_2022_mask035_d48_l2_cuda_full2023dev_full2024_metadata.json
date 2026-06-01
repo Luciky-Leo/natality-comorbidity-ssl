@@ -1,0 +1,11 @@
+{
+  "dev_embeddings": "results\\objects\\masked_tabular_ssl_dev_embeddings_full2016_2022_mask035_d48_l2_cuda_full2023dev.parquet",
+  "test_embeddings": "results\\objects\\masked_tabular_ssl_test_embeddings_full2016_2022_mask035_d48_l2_cuda_full2024.parquet",
+  "dev_assignments": "results\\objects\\ssl_phenotype_dev_assignments_full2016_2022_mask035_d48_l2_cuda_full2023dev_full2024.parquet",
+  "test_assignments": "results\\objects\\ssl_phenotype_test_assignments_full2016_2022_mask035_d48_l2_cuda_full2023dev_full2024.parquet",
+  "output": "results\\objects\\ssl_plus_phenotype_predictions_full2016_2022_mask035_d48_l2_cuda_full2023dev_full2024.parquet",
+  "rows": 3638436,
+  "embedding_columns": 48,
+  "model": "ssl_plus_phenotype_logistic_platt",
+  "seed": 20260525
+}

@@ -1,0 +1,17 @@
+threshold,net_benefit,treat_all_net_benefit,treat_none_net_benefit,n_flagged,flagged_fraction,endpoint,endpoint_label,model
+0.0025,0.005221746369851591,0.005220208211360397,0.0,3620603,0.9950987182404748,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.005,0.003053107898130463,0.0027207614983236128,0.0,2336401,0.6421443169537681,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.0075,0.0019091811012672145,0.0002087231141884088,0.0,1265422,0.34779284285885476,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.01,0.0012091275848560568,-0.0023160023324929353,0.0,741766,0.20386946479201504,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.015,0.0005150425178781985,-0.00740390082149036,0.0,270144,0.07424728647143992,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.02,0.00021326162546495356,-0.012543716642008172,0.0,109729,0.03015828779178746,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.03,5.2412913385816064e-05,-0.022982311658936088,0.0,29734,0.00817219266739885,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.05,-3.5729637679486522e-06,-0.04451878137807159,0.0,5347,0.0014695874820939547,outcome_maternal_morbidity_core,Maternal core morbidity,SSL + phenotype
+0.02,0.027548296654308142,0.027026155956985414,0.0,2747047,0.7550076461424634,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype
+0.03,0.020833336875129296,0.016995497770974956,0.0,1874242,0.5151229814128928,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype
+0.05,0.013271477374517946,-0.0036993338548992616,0.0,939739,0.2582810306406379,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype
+0.075,0.008628187525658857,-0.030826342878004634,0.0,488885,0.13436679936104415,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype
+0.1,0.006278827251904695,-0.05946040795794923,0.0,282344,0.07760037554597635,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype
+0.125,0.005020092620644065,-0.08973070532817634,0.0,176031,0.048380952695059085,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype
+0.15,0.004303545938581366,-0.12178160842606389,0.0,118077,0.03245268021754402,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype
+0.2,0.0034916101313861234,-0.19189295895269287,0.0,63134,0.01735196111735922,outcome_severe_neonatal_no_nicu,Severe neonatal outcome,SSL + phenotype

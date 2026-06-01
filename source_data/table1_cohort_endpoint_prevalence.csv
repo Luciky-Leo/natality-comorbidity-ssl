@@ -1,0 +1,4 @@
+calendar_period,role,records,maternal_core_morbidity_events,maternal_core_morbidity_percent,severe_neonatal_composite_events,severe_neonatal_composite_percent
+2016-2022,Training / SSL pretraining,26345765,158866,0.603,1060190,4.024
+2023,Development / calibration,3605081,27365,0.759,163961,4.548
+2024,Temporal test,3638436,28042,0.771,169135,4.649

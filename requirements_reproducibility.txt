@@ -1,0 +1,10 @@
+pandas
+pyarrow
+numpy
+scikit-learn
+lightgbm
+torch
+matplotlib
+seaborn
+pillow
+pypdf

@@ -1,0 +1,82 @@
+name,start,end,role,missing_values,description
+DOB_YY,9,12,meta,,Birth year
+MAGER,75,76,input,99,Mother single years of age
+MAGER9,79,79,input,9,Mother age recode 9
+MBSTATE_REC,84,84,input,3,Mother nativity
+RESTATUS,104,104,input,,Residence status
+MRACE31,105,106,input,,Mother race recode 31
+MRACE6,107,107,input,,Mother race recode 6
+MRACE15,108,109,input,,Mother race recode 15
+MHISPX,112,112,input,9,Mother Hispanic origin
+MHISP_R,115,115,input,9,Mother Hispanic origin recode
+MRACEHISP,117,117,input,8,Mother race/Hispanic origin
+DMAR,120,120,input,9,Marital status
+MEDUC,124,124,input,9,Mother education
+LBO_REC,179,179,input,9,Live birth order recode
+TBO_REC,182,182,input,9,Total birth order recode
+ILLB_R11,201,202,input,99,Interval since last live birth recode 11
+PRECARE,224,225,input,99,Month prenatal care began
+PRECARE5,227,227,input,5,Month prenatal care began recode
+PREVIS,238,239,input,99,Number of prenatal visits
+PREVIS_REC,242,243,input,12,Number of prenatal visits recode
+WIC,251,251,input,U,WIC
+CIG_0,253,254,input,99,Cigarettes before pregnancy
+CIG_1,255,256,input,99,Cigarettes first trimester
+CIG_2,257,258,input,99,Cigarettes second trimester
+CIG_3,259,260,input,99,Cigarettes third trimester
+CIG0_R,261,261,input,6,Cigarettes before pregnancy recode
+CIG1_R,262,262,input,6,Cigarettes first trimester recode
+CIG2_R,263,263,input,6,Cigarettes second trimester recode
+CIG3_R,264,264,input,6,Cigarettes third trimester recode
+CIG_REC,269,269,input,U,Cigarette recode
+M_Ht_In,280,281,input,99,Mother height in total inches
+BMI,283,286,input,99.9,Body mass index
+BMI_R,287,287,input,9,Body mass index recode
+PWgt_R,292,294,input,999,Pre-pregnancy weight recode
+DWgt_R,299,301,secondary_context,999,Delivery weight recode
+WTGAIN,304,305,input,99,Weight gain
+WTGAIN_REC,306,306,input,9,Weight gain recode
+RF_PDIAB,313,313,input,U,Pre-pregnancy diabetes
+RF_GDIAB,314,314,input,U,Gestational diabetes
+RF_PHYPE,315,315,input,U,Pre-pregnancy hypertension
+RF_GHYPE,316,316,input,U,Gestational hypertension
+RF_EHYPE,317,317,input,U,Hypertension eclampsia
+RF_PPTERM,318,318,input,U,Previous preterm birth
+RF_INFTR,325,325,input,U,Infertility treatment used
+RF_FEDRG,326,326,input,U,Fertility enhancing drugs
+RF_ARTEC,327,327,input,U,Assisted reproductive technology
+RF_CESAR,331,331,input,U,Previous cesarean
+RF_CESARN,332,333,input,99,Number of previous cesareans
+NO_RISKS,337,337,input,9,No risk factors reported
+IP_GON,343,343,input,U,Gonorrhea
+IP_SYPH,344,344,input,U,Syphilis
+IP_CHLAM,345,345,input,U,Chlamydia
+IP_HEPB,346,346,input,U,Hepatitis B
+IP_HEPC,347,347,input,U,Hepatitis C
+NO_INFEC,353,353,input,9,No infections reported
+MM_MTR,415,415,maternal_outcome,U,Maternal transfusion
+MM_PLAC,416,416,maternal_outcome,U,Perineal laceration
+MM_RUPT,417,417,maternal_outcome,U,Ruptured uterus
+MM_UHYST,418,418,maternal_outcome,U,Unplanned hysterectomy
+MM_AICU,419,419,maternal_outcome,U,Admit to intensive care
+NO_MMORB,427,427,maternal_outcome,9,No maternal morbidity reported
+PAY_REC,436,436,input,9,Payment recode
+APGAR5,444,445,neonatal_outcome,99,Five minute APGAR score
+APGAR5R,446,446,neonatal_outcome,5,Five minute APGAR recode
+DPLURAL,454,454,input,,Plurality recode
+SEX,475,475,input,,Sex of infant
+COMBGEST,490,491,neonatal_outcome,99,Combined gestation in weeks
+GESTREC10,492,493,neonatal_outcome,99,Combined gestation recode 10
+GESTREC3,494,494,neonatal_outcome,3,Combined gestation recode 3
+OEGest_Comb,499,500,neonatal_outcome,99,Obstetric estimate edited
+OEGest_R3,503,503,neonatal_outcome,3,Obstetric estimate recode 3
+DBWT,504,507,neonatal_outcome,9999,Birth weight in grams
+BWTR12,509,510,neonatal_outcome,12,Birth weight recode 12
+BWTR4,511,511,neonatal_outcome,4,Birth weight recode 4
+AB_AVEN1,517,517,neonatal_outcome,U,Assisted ventilation immediately
+AB_AVEN6,518,518,neonatal_outcome,U,Assisted ventilation more than 6 hours
+AB_NICU,519,519,neonatal_outcome,U,Admission to NICU
+AB_SURF,520,520,neonatal_outcome,U,Surfactant
+AB_ANTI,521,521,neonatal_outcome,U,Antibiotics for newborn
+AB_SEIZ,522,522,neonatal_outcome,U,Seizures
+NO_ABNORM,531,531,neonatal_outcome,9,No abnormal conditions checked
