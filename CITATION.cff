@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or source-data package, please cite the associated manuscript and archived Zenodo release."
+title: "Full-scale self-supervised maternal comorbidity phenotyping and cross-registry stress-testing in public birth records"
+type: software
+authors:
+  - family-names: Yan
+    given-names: Fengshang
+    email: 342082145@qq.com
+  - family-names: Yang
+    given-names: Qianqian
+    email: yangqianqian8733@163.com
+  - family-names: Wang
+    given-names: Mingtang
+    email: 1099529466@qq.com
+  - family-names: Lu
+    given-names: Feifan
+    email: luff94@163.com
+repository-code: "https://github.com/Luciky-Leo/natality-comorbidity-ssl"
+license: MIT
+date-released: "2026-06-01"
+keywords:
+  - maternal comorbidity
+  - birth records
+  - self-supervised learning
+  - masked tabular modeling
+  - risk enrichment
+  - calibration
+  - SINASC
+  - CDC NCHS Natality

@@ -1,0 +1,35 @@
+{
+  "title": "Full-scale self-supervised maternal comorbidity phenotyping and cross-registry stress-testing in public birth records",
+  "upload_type": "software",
+  "description": "Source code, manuscript source files, source-data tables, and selected model artifacts for a public birth-registry study of masked tabular self-supervised maternal comorbidity phenotyping, calibrated risk enrichment, linked infant death transfer analysis, and SINASC registry stress-testing. Individual-level CDC/NCHS and SINASC public-use records are not redistributed.",
+  "creators": [
+    {
+      "name": "Yan, Fengshang",
+      "affiliation": "Department of Obstetrics and Gynecology, Changhai Hospital, Naval Medical University"
+    },
+    {
+      "name": "Yang, Qianqian",
+      "affiliation": "Department of Obstetrics and Gynecology, Changhai Hospital, Naval Medical University"
+    },
+    {
+      "name": "Wang, Mingtang",
+      "affiliation": "Department of Obstetrics and Gynecology, Changhai Hospital, Naval Medical University"
+    },
+    {
+      "name": "Lu, Feifan",
+      "affiliation": "Department of Obstetrics and Gynecology, Changhai Hospital, Naval Medical University"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "maternal comorbidity",
+    "birth records",
+    "self-supervised learning",
+    "masked tabular modeling",
+    "risk enrichment",
+    "calibration",
+    "SINASC",
+    "CDC NCHS Natality"
+  ],
+  "access_right": "open"
+}

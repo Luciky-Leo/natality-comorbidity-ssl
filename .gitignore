@@ -1,0 +1,43 @@
+# Raw and individual-level public-use records
+data/raw/
+data/raw_linked_birth_infant_death/
+data/interim/
+data/processed/
+*.parquet
+*.feather
+*.arrow
+*.sas7bdat
+*.dta
+
+# Large generated model and embedding outputs
+results/
+logs/
+objects/
+embeddings/
+predictions/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# LaTeX/runtime caches
+build/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+~$*
